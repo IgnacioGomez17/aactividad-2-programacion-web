@@ -1,0 +1,9 @@
+* { margin: 0; padding: 0; }
+html, body { width: 100%; height: 100%; }
+body { font-family: Arial, sans-serif; }
+.modelo { width: 100%; height: 100%; display: grid; }
+.celda { border: 0.1rem solid #555; display: flex; align-items: center; justify-content: center; font-size: 3em; }
+.uno, .dos { background-color: #d9ead3; }
+.tres, .cuatro { background-color: #fff2cc; }
+.cinco { background-color: #f4cccc; }
+.seis { background-color: #c9daf8; }

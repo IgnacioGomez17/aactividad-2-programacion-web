@@ -1,0 +1,4 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Modelo 3</title><link rel="stylesheet" href="styles.css"><style>.modelo { grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr 1fr; grid-template-areas: "uno dos" "tres cuatro" "cinco seis"; }
+
+@media screen and (max-width: 700px) { .modelo { grid-template-columns: 1fr; grid-template-rows: 1fr 1fr 1fr; grid-template-areas: "uno" "tres" "seis"; } .dos, .cuatro, .cinco { display: none; } }
+</style></head><body><main class="modelo"><div class="celda uno">1</div><div class="celda dos">2</div><div class="celda tres">3</div><div class="celda cuatro">4</div><div class="celda cinco">5</div><div class="celda seis">6</div></main></body></html>
