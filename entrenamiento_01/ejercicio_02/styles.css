@@ -1,0 +1,21 @@
+* { margin: 0; padding: 0; }
+html, body { height: 100%; }
+body { font-family: Arial, sans-serif; }
+.pagina { width: 80%; height: 100%; margin: auto; }
+nav { position: fixed; top: 0; width: 80%; height: 10%; display: flex; justify-content: center; align-items: center; border: 0.1rem solid #777; background-color: #eee; z-index: 2; }
+nav a { margin: 0 2%; color: #222; text-decoration: none; }
+main { margin-top: 12%; margin-bottom: 12%; padding: 3%; }
+.receta { border: 0.15rem solid #777; border-radius: 2rem 0 2rem 0; padding: 3%; margin-bottom: 5%; }
+.receta img { display: block; width: 80%; margin: auto; border: 0.1rem solid #777; }
+footer { position: fixed; bottom: 0; width: 80%; height: 10%; display: flex; justify-content: center; align-items: center; border: 0.1rem solid #777; background-color: #eee; }
+form { width: 90%; margin: auto; padding: 4%; background-color: #eee; border: 0.1rem solid #777; }
+.campo { display: flex; margin-bottom: 2%; align-items: center; }
+.campo label { width: 20%; }
+.campo input, .campo textarea { width: 70%; padding: 1%; }
+.botones { display: flex; justify-content: center; }
+button { margin: 2%; padding: 1% 5%; }
+@media screen and (max-width: 700px) {
+    .pagina, nav, footer { width: 100%; }
+    .campo { flex-direction: column; align-items: flex-start; }
+    .campo label, .campo input, .campo textarea { width: 100%; }
+}

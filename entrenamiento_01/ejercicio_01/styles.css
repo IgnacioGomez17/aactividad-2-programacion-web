@@ -1,0 +1,14 @@
+* { margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; }
+.cv { width: 80%; height: 100%; min-height: 100vh; margin: auto; background-color: #f2f2f2; }
+.presentacion { display: flex; justify-content: space-between; align-items: center; margin: 5%; }
+.datos { width: 60%; }
+.foto { width: 20%; height: 20%; border: 0.2rem solid #777; border-radius: 15%; background-color: #bbb; display: flex; justify-content: center; align-items: center; padding: 5%; }
+.seccion { margin: 5%; }
+a { color: #222; }
+@media screen and (max-width: 700px) {
+    .cv { width: 100%; }
+    .presentacion { flex-direction: column; align-items: flex-start; }
+    .datos { width: 100%; }
+    .foto { width: 30%; }
+}
